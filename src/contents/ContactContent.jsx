@@ -1,7 +1,4 @@
 import Text from "../components/Text"
-import Paragraph from "../components/Paragraph"
-import Box3 from "../components/Box3"
-import Text2 from "../components/Text2"
 
 const ContactContent = () => {
   return (

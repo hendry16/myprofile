@@ -40,7 +40,7 @@ const AboutContent = () => {
           <Text text="About" />
           <div className="h-0.5 w-1/4 ml-6 bg-black bg-gradient-to-r  from-orange-600 to-pink-600"></div>
         </div>
-        <Paragraph text="Hello, my name is Hendri. I am a Junior Web Developer and I have purpose to become an Cloud Enginering" />
+        <Paragraph text="Hello, my name is Hendri. I am a Junior Web Developer and I want to be able to develop my skills in the field of web developer and also become a cloud engineer. And I also like to learn about the back-end." />
         <Text2 text="What I do!" />
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-2">
           {
