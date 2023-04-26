@@ -23,23 +23,28 @@ const education = [
 const skills = [
   {
     skill: "Web",
-    percent: "70%"
+    percent: "70%",
+    percentW : "w-[70%]"
   },
   {
     skill: "Java",
-    percent: "80%"
+    percent: "80%",
+    percentW : "w-[80%]"
   },
   {
     skill: "CSS",
-    percent: "75%"
+    percent: "75%",
+    percentW : "w-[75%]"
   },
   {
     skill: "Excel",
-    percent: "75%"
+    percent: "75%",
+    percentW : "w-[75%]"
   },
   {
     skill: "Node.js",
-    percent: "85%"
+    percent: "85%",
+    percentW : "w-[85%]"
   },
 
 ];
@@ -72,7 +77,7 @@ const ResumeContent = () => {
             <p className="text-2xl mb-4 font-medium">Skills</p>
             {
               skills.map((v, index) => {
-                return <PercentBox skill={v.skill} percent={v.percent} color={bgColor[index]} />
+                return <PercentBox skill={v.skill} percent={v.percent} color={bgColor[index]} percentW={v.percentW} />
               })
             }
           </div>

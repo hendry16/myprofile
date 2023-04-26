@@ -1,4 +1,4 @@
-const PercentBox = ({ skill, percent, color }) => {
+const PercentBox = ({ skill, percent, color, percentW }) => {
   
   return (
     <div className="mb-3">
@@ -8,7 +8,7 @@ const PercentBox = ({ skill, percent, color }) => {
       </div>
       <div>
         <div className="h-1 w-full rounded-full bg-gray-300">
-          <div className={`h-1 rounded-full ${color} w-[${percent}]`}></div>
+          <div className={`h-1 rounded-full ${color} ${percentW}`}></div>
         </div>
       </div>
     </div>

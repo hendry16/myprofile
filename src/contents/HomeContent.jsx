@@ -67,7 +67,7 @@ const cloudStorageImg = [
   "https://storage.googleapis.com/mybucket-hendry1516/image/9-01.jpg",
 ];
 
-const colors = ["red", "pink", "purple", "lime", "indigo", "blue", "cyan", "teal", "amber", "green"];
+const colors = ["bg-red-50", "bg-pink-50", "bg-purple-50", "bg-lime-50", "bg-indigo-50", "bg-blue-50", "bg-cyan-50", "bg-teal-50", "bg-amber-50", "bg-green-50"];
 
 const HomeContent = () => {
 
